@@ -1,0 +1,110 @@
+#root,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(248, 249, 250);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100;
+}
+
+.displayUsers h3 {
+  margin: 10px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 0.7;
+}
+
+.addUser {
+  margin-top: 10px;
+}
+
+.addUser input {
+  cursor: pointer;
+  outline: none;
+  margin: 4px;
+  width: 150px;
+}
+
+.displayUsers input {
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  width: 160px;
+}
+
+.displayUsers button {
+  cursor: pointer;
+  outline: none;
+  margin: 4px;
+}
+
+.displayUsers div {
+  height: 15vh;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 2px 1px 2px 1px rgb(172, 171, 171);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #root,
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 249, 250);
+  }
+
+  .displayUsers div {
+    height: 20vh;
+  }
+
+  .displayUsers div {
+    height: 10vh;
+    max-width: 100%;
+  }
+
+  .displayUsers h3 {
+    font-size: 12px;
+  }
+  .displayUsers button{
+    width: 73px;
+    max-width: 100%;
+    margin: 2px;
+    font-size: 10px;
+  }
+
+  .displayUsers input{
+    width: 90px;
+    max-width: 100%;
+    margin: 1px;
+  }
+
+  .addUser{
+    margin-top: 20px;
+  }
+
+  .addUser button {
+    width: 80px;
+    max-width: 100%;
+    margin: 2px;
+    font-size: 10px;
+  }
+
+  .addUser input {
+    width: 100px;
+    max-width: 100%;
+    margin: 5px;
+  }
+}
