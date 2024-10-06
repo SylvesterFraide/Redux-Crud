@@ -1,6 +1,6 @@
 import './App.css'
 import { useSelector } from 'react-redux';
-import { addUser, deleteUser, updateUser } from './features/users';
+import { addUser, deleteUser, updateUser } from './features/Users';
 import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 
